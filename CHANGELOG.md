@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Removed
+
+- `graphql` from `tsconfig.json`'s `types` property.
+
+### Security
+
+- Upgrade packages due to a few security vulnerabilities.
+
 ## [2.21.7] - 2019-09-06
 ### Fixed
 - Fix iOS issue where `sticky` would not work.
